@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ceci est la page de Diane">
+  <title>Profil de Diane Trémeau</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="card-white" id="introduction">
+			<header>
+		    <h1>Hello, I'm Diane 😎</h1>
+		    <img src="images/image.jpg" width="170" height="170" id="img-circle">
+		    <h2>About Me</h2>
+		    <p>
+		      I love cooking, spending time with my friends, and discovering new things every day. <br>
+		      <br>
+		      I have two mantras in my life : <br>
+		      <q>Do one thing every day that scares you</q> - Eleanor Roosevelt <br>
+		      <q>Be the change you want to see in the world</q> - Gandhi
+		    </p>
+		    <a href="https://www.linkedin.com/in/diane-tremeau/" target="_blank" class="btn-pink">Discover my LinkedIn profile</a>
+		</header>
+		</div>
+
+    
+      	<div class="card-white">
+        	<h2>Sneakers 👟</h2>
+	        <p>
+	          I am passionate about sneakers. Here are a few pairs I own.
+	        </p>
+	        <div class="img-rounded">
+	          <img src="images/gazelle-pink.jpg" alt="Gazelle Pink" width="170" height="170">
+	          <img src="images/sb-dunk.webp" alt="SB Dunk" width="170" height="170">
+	          <img src="images/nb-550.jpg" alt="NB 550" width="170" height="170">
+	        </div>
+      	</div>
+
+      	<div class="card-white">
+	        <h2>Cooking 🍲</h2>
+	        <p>
+	          I thoroughly enjoy cooking for my friends and family. There's something incredibly satisfying about creating delicious meals and seeing the joy it brings to the people I care about.
+	        </p>
+	        <div class="img-rounded">
+	          <img src="images/meal1.jpg" alt="Meal 1" width="170" height="170">
+	          <img src="images/meal2.jpg" alt="Meal 2" width="170" height="170">
+	          <img src="images/meal3.jpeg" alt="Meal 3" width="170" height="170">
+	        </div>
+      	</div>
+
+      	<div class="card-white">
+	        <h2>Automobile 🏎️</h2>
+	        <p>
+	          I have a deep passion for cars. Whether it's admiring vintage models at a car show or staying up-to-date with the latest advancements in electric vehicles, my interest in automobiles is not just a hobby but a lifelong fascination that continues to grow. Here are a few pictures I took at a car event in my school.
+	        </p>
+	        <div class="img-rounded">
+	          <img src="images/lambo.jpg" alt="Lamborghini" width="170" height="170">
+	          <img src="images/car1.jpg" alt="Car 1" width="170" height="170">
+	          <img src="images/lambo2.jpg" alt="Lamborghini 2" width="170" height="170">
+	        </div>
+      	</div>
+
+      	<div class="card-white">
+	        <h2>Travels 🗺️🧳</h2>
+	        <p>
+	          While I haven't had the opportunity to travel extensively yet, I have a deep desire to explore other countries and immerse myself in different cultures.
+	        </p>
+	    </div>
+
+	    <div class="card-white">
+	        <h2>Follow me / Contact</h2>
+	        <ul class="list-inline">
+	          	<li>
+	          		<a href="https://www.facebook.com/profile.php?id=100084441921497" target="_blank">
+	           			<i class="fab fa-facebook"></i>
+	           		</a>
+	          	</li>
+	          	<li>
+	          		<a href="https://twitter.com/diane_tremeau" target="_blank">
+	          			<i class="fab fa-twitter"></i>
+	      			</a>
+	          	</li>
+	          	<li>
+	          		<a href="https://www.instagram.com/diane_tremeau/" target="_blank">
+	          			<i class="fab fa-instagram"></i>
+	          		</a>
+	          	</li>
+	        </ul>
+	        <br>
+	        <form id="form">
+	          <label for="name">Name : </label>
+	          <input type="text" id="name" name="name" required>
+
+	          <label for="email">Email : </label>
+	          <input type="email" id="email" name="email" required>
+
+	          <label for="message">Message : </label>
+	          <textarea id="message" name="message" required></textarea>
+	          <br>
+	          <button onclick="myFunction()">Envoyer</button>
+				<script>
+				function myFunction() {
+				  alert("Your message has been sent !");
+				}
+				</script>
+	        </form>
+      	</div>
+  	</div>
+</body>
+</html>
